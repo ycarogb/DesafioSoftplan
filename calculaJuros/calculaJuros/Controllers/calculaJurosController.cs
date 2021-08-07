@@ -9,11 +9,15 @@ using System.Threading.Tasks;
 namespace calculaJuros.Controllers
 {
     [ApiController]
-    public class calculaJuros : ControllerBase
+    public class calculaJurosController : ControllerBase
     {
-        private readonly ILogger<calculaJuros> _logger;
+        private readonly ILogger<calculaJurosController> _logger;
 
-        public calculaJuros(ILogger<calculaJuros> logger)
+        public calculaJurosController()
+        {
+        }
+
+        public calculaJurosController(ILogger<calculaJurosController> logger)
         {
             _logger = logger;
         }
