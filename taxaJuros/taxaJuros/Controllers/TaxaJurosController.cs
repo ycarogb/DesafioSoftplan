@@ -12,6 +12,10 @@ namespace taxaJuros.Controllers
     {
         private readonly ILogger<TaxaJurosController> _logger;
 
+        public TaxaJurosController()
+        {
+        }
+
         public TaxaJurosController(ILogger<TaxaJurosController> logger)
         {
             _logger = logger;
