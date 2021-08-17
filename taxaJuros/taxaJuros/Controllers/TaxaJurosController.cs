@@ -16,11 +16,6 @@ namespace taxaJuros.Controllers
         {
         }
 
-        public TaxaJurosController(ILogger<TaxaJurosController> logger)
-        {
-            _logger = logger;
-        }
-
         [Route("/taxaJuros")]
         [HttpGet]
         public TaxaJuros Get()

@@ -17,10 +17,6 @@ namespace calculaJuros.Controllers
         {
         }
 
-        public calculaJurosController(ILogger<calculaJurosController> logger)
-        {
-            _logger = logger;
-        }
 
         [HttpGet]
         [Route("[controller]")]
